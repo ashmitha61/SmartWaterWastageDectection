@@ -1,0 +1,22 @@
+{
+  "name": "smart-waste-management-backend",
+  "version": "1.0.0",
+  "description": "Express and MySQL REST API Backend for Smart Waste Management System DBMS Project",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "keywords": ["dbms", "mysql", "express", "smart-waste-management"],
+  "author": "B.Tech Computer Science DBMS Project",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.12.0"
+  }
+}

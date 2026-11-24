@@ -1,0 +1,16 @@
+{
+  "name": "smart-waste-management-workspace",
+  "version": "1.0.0",
+  "description": "Smart Waste Management System - Full Stack DBMS Project",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "start:backend": "npm --prefix backend start",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "seed": "npm --prefix backend run seed"
+  },
+  "keywords": ["dbms", "mysql", "express", "react", "smart-waste-management"],
+  "author": "B.Tech Computer Science DBMS Project",
+  "license": "ISC"
+}
